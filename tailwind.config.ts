@@ -13,7 +13,25 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        playfair: ['"Playfair Display"', 'serif'],
+        cormorant: ['"Cormorant Garamond"', 'serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
       colors: {
+        g: {
+          bg: '#F1EFEA',
+          bgAlt: '#E8E4DD',
+          card: '#FAF8F5',
+          navy: '#2E3A46',
+          navyDark: '#1E2D3A',
+          text: '#2A2A2A',
+          textMuted: '#5A5A5A',
+          separator: '#C4B89A',
+          light: '#F1EFEA',
+          lightMuted: '#D0C8BC',
+          accent: '#A8C4D4',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -65,20 +83,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
