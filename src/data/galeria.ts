@@ -1,4 +1,4 @@
-export const galeria = [
+export const galeriaData = [
   { id: "g001", full: "/GALERIA/1.jpg", thumb: "/GALERIA/1_small.jpg", kategoria: "Nagrobki", opis: "Nagrobek granitowy – realizacja GRANBET" },
   { id: "g002", full: "/GALERIA/2.jpg", thumb: "/GALERIA/2_small.jpg", kategoria: "Nagrobki", opis: "Nagrobek granitowy – realizacja GRANBET" },
   { id: "g003", full: "/GALERIA/3.jpg", thumb: "/GALERIA/3_small.jpg", kategoria: "Nagrobki", opis: "Nagrobek granitowy – realizacja GRANBET" },
