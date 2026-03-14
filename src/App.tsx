@@ -96,6 +96,7 @@ const App = () => {
       <Testimonials />
       <Process />
       <Gallery />
+      <FullGallery />
       <FAQ />
       <CTA />
       <Contact />
