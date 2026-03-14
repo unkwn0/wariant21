@@ -4,6 +4,7 @@ import { Menu, X, Phone } from 'lucide-react';
 const navLinks = [
   { label: 'Oferta', href: '#oferta' },
   { label: 'Realizacje', href: '#galeria' },
+  { label: 'Pełna galeria', href: '#galeria-pelna' },
   { label: 'O nas', href: '#o-nas' },
   { label: 'FAQ', href: '#faq' },
   { label: 'Kontakt', href: '#kontakt' },
