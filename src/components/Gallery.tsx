@@ -50,7 +50,7 @@ export default function Gallery() {
           data-animate-delay={String((i % 6) * 100)}
         >
           <img
-            src={item.thumb}
+            src={item.full}
             alt={item.opis}
             loading="lazy"
             decoding="async"
@@ -153,7 +153,7 @@ export default function Gallery() {
               >
                 <div className="w-32 h-24 flex-shrink-0 bg-[#C8C0B4] rounded overflow-hidden">
                   <img
-                    src={item.thumb}
+                    src={item.full}
                     alt={item.opis}
                     loading="lazy"
                     decoding="async"
