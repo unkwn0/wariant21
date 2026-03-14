@@ -50,7 +50,7 @@ export default function Gallery() {
           data-animate-delay={String((i % 6) * 100)}
         >
           <img
-            src={item.thumb}
+            src={item.full}
             alt={item.opis}
             loading="lazy"
             decoding="async"
